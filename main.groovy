@@ -1,4 +1,6 @@
 def manage(){
 
-    echo "is this thing on"
+    println("is this thing on")
 }
+
+return this
