@@ -4,7 +4,7 @@ node(){
         checkout scm
         def rootdir = pwd()
         
-        def main = load(${rootdir}/main.groovy)
+        def main = load "${rootdir}/main.groovy"
         main.manage()
     }
 }
